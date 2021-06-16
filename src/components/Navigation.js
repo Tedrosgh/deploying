@@ -2,15 +2,15 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => (
   <nav className="Navigation p-3 border-bottom">
-    <ul className="d-flex">
-      <li className="me-3">
+    <ul className="d-flex bg-secondary justify-content-between">
+      <li className="me-3 list-group-item">
         <NavLink exact to="/">
-          Recipe List
+          Deploy
         </NavLink>
       </li>
-      <li>
+      <li className="list-group-item">
         <NavLink exact to="/add">
-          Add New Recipe
+          Add New Deploy
         </NavLink>
       </li>
     </ul>
